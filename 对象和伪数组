@@ -1,12 +1,14 @@
-<div>1111111</div>
+	<div>1111111</div>
 	<div>2222222</div>
 	<div>3333333</div>
 	<script type="text/javascript">
 	var objs = {0:1, 1:2, 2:3};
 	var obj = document.getElementsByTagName('div');
 	/*
-	console.log(prototype obj);  //object
-	console.log(obj.length);  //3
-	console.log(obj);  //[div,div,div]
-	console.log(objs.length);  //undefined
-	console.log(objs);  //object{0:1, 1:2, 2:3}*/
+	console.log(typeof obj);  //object  伪数组也是对象	
+	console.log(obj.length);  //3   伪数组的length是3
+	console.log(obj[2]);  //<div>3333333</div>     伪数组下标[2]的值	
+	console.log(obj);  //[div,div,div]   读取伪数组	
+	console.log(objs.length);  //undefined //对象的length是undefined	
+	console.log(objs[2]);  //3    对象下标[2]的值3	
+ 	console.log(objs);  //object{0:1, 1:2, 2:3}      读取objs
