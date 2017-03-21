@@ -1,0 +1,12 @@
+<div>1111111</div>
+	<div>2222222</div>
+	<div>3333333</div>
+	<script type="text/javascript">
+	var objs = {0:1, 1:2, 2:3};
+	var obj = document.getElementsByTagName('div');
+	/*
+	console.log(prototype obj);  //object
+	console.log(obj.length);  //3
+	console.log(obj);  //[div,div,div]
+	console.log(objs.length);  //undefined
+	console.log(objs);  //object{0:1, 1:2, 2:3}*/
